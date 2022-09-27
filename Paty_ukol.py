@@ -1,10 +1,7 @@
-list = ['1','2','3','4','5','6']
+list = [1,2,3,4,5,6]
 vlozeni = int(input("Vlož číslo: "))
-i = 0
-while i < 7:
-    if vlozeni == list[i]:
-        print("Je stejné.")
-        break;
+for i in list:
+    if(i == vlozeni):
+        print("Je v poli")
     else:
-        print("Není stejné.")
-        break;
+        print("Není v poli.")
