@@ -4,7 +4,7 @@ def reverse(s):
         string= i + string
     return string
   
-s = int("datel")
+s = "datel"
   
 print(end="")
 print(reverse(s))
