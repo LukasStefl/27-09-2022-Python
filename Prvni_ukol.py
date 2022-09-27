@@ -8,3 +8,4 @@ s = int("datel")
   
 print(end="")
 print(reverse(s))
+
